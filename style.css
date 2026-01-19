@@ -1,0 +1,60 @@
+/* 设置背景和字体 */
+body {
+    background-color: #0f172a; /* 深蓝色背景，很有科技感 */
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* 商店容器 */
+.shop-container {
+    text-align: center;
+}
+
+/* 商品卡片设计 */
+.product-card {
+    background: #1e293b;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease; /* 鼠标放上去会有微小的跳动效果 */
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.price {
+    font-size: 24px;
+    color: #38bdf8;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* 购买按钮 */
+.buy-button {
+    display: block;
+    background: #38bdf8;
+    color: #0f172a;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.buy-button:hover {
+    background: #7dd3fc;
+}
